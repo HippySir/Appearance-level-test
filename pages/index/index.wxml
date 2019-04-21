@@ -1,0 +1,15 @@
+<!-- 颜值 -->
+<view class='appearance'style="background-image: url({{tempFilePaths}})">
+<!-- 按钮 -->
+  <view class='photobutton' bindtap='takephoto'>
+    <image class='photoicon' src="../../static/camera.png"></image>
+    <view class='buttonword'>拍照</view>
+  </view>
+  <!-- 相关信息显示框 -->
+  <view class='personinfo' wx:if="{{data != null}}">
+    <view class='age'>年龄：{{personage}}</view>
+    <view class='beauty'>颜值：{{personbeauty}}</view>
+    <view class='expression'>当前情绪：{{personexpression}}</view>
+    <view class='sex'>性别：{{persongender}}</view>
+  </view>
+</view>

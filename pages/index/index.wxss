@@ -1,0 +1,48 @@
+page {
+  height: 100%;
+}
+.appearance {
+  position: relative;
+  height: 100%;
+  background-size: 100% 100%;
+}
+/* 按钮 */
+.appearance .photobutton {
+  border-radius: 10rpx;
+  height: 80rpx;
+  width: 180rpx;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 1050rpx;
+  left: 50%;
+  margin-left: -50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.appearance .photobutton .photoicon {
+  width: 60rpx;
+  height: 50rpx;
+}
+.appearance .photobutton .buttonword {
+  color: #fff;
+
+}
+/* 个人信息显示框 */
+.appearance .personinfo {
+  width: 450rpx;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 600rpx;
+  left: 50rpx;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  
+}
+.appearance .personinfo view {
+  flex: 1;
+}
